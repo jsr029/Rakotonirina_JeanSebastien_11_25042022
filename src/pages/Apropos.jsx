@@ -1,11 +1,10 @@
-const React = require('react');
+import React from 'react'
+import Banner from '../components/Banner';
 
 const Apropos = () => {
 	return (
-		<div>
-			<h2>A propos de</h2>
-		</div>
-	);
+		<Banner />
+		);
 };
 
 export default Apropos;
