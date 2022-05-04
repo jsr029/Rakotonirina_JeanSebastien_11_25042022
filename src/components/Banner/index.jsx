@@ -14,7 +14,7 @@ function Banner() {
 			<img src={A} alt='logo-kasa-A' className='lmj-logo-A' />
 		</div>
 		<div className='lmj-title'>
-			<Link to="/">Accueil</Link> {" "} <Link to="/Apropos">A propos de</Link>
+			<Link to={'/'}>Accueil</Link> {" "} <Link to={'/a-propos'}>A propos de</Link>
 		</div>
 	</div>
 	)
