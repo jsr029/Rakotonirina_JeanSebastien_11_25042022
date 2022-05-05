@@ -22,7 +22,7 @@ code {
   }
 }
 .lmj-banner {
-  color: black;
+  color: FF6060;
   text-align: right;
   padding: 32px;
   /*border-bottom: solid 3px black;*/
@@ -33,7 +33,18 @@ code {
 }
 
 .lmj-title {
+  min-width: 250px;
   padding-left: 32px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lmj-title a {
+  text-decoration: none;
+  color: #FF6060;
 }
 
 .lmj-logo {
@@ -221,6 +232,30 @@ code {
     row-gap: 10px;
     column-gap: 10px;
   }
+}
+.lmj-notFound {
+  display: flex;
+  flex-direction: column;
+}
+.lmj-notFound-bloc {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  text-align: center;
+  flex-direction: column;
+  color: #FF6060;
+}
+.lmj-notFound-title {
+  font-size: 288px;
+}
+.lmj-notFound-errorMessage {
+  font-size: 36px;
+}
+.lmj-notFound-retour a {
+  text-decoration: none;
+  color: #FF6060;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=main.css.map */
