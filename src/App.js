@@ -5,7 +5,6 @@ import Apropos from './pages/Apropos.jsx'
 import NotFound from "./pages/NotFound.jsx";
 
 
-
 const App = () => {
     return (
     <BrowserRouter>
