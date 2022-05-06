@@ -22,7 +22,7 @@ code {
   }
 }
 .lmj-banner {
-  color: FF6060;
+  color: #FF6060;
   text-align: right;
   padding: 32px;
   /*border-bottom: solid 3px black;*/
@@ -31,7 +31,6 @@ code {
   flex-direction: row;
   align-items: center;
 }
-
 .lmj-title {
   min-width: 250px;
   padding-left: 32px;
@@ -46,7 +45,6 @@ code {
   text-decoration: none;
   color: #FF6060;
 }
-
 .lmj-logo {
   height: 45px;
   width: 45px;
@@ -218,21 +216,16 @@ code {
 .lmj-plant-list {
   list-style-type: none;
   padding: 32px;
+}
+
+.lmj-layout-inner {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
   row-gap: 45px;
   column-gap: 45px;
 }
 
-@media screen and (max-width: 800px) {
-  .lmj-plant-list {
-    width: 100%;
-    justify-content: space-around;
-    row-gap: 10px;
-    column-gap: 10px;
-  }
-}
 .lmj-notFound {
   display: flex;
   flex-direction: column;

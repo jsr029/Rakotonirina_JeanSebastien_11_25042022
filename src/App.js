@@ -1,11 +1,10 @@
-import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from './pages/Home.jsx'
 import Apropos from './pages/Apropos.jsx'
 import NotFound from "./pages/NotFound.jsx";
 
 
-const App = () => {
+function App() {
     return (
     <BrowserRouter>
         <Switch>
@@ -15,9 +14,9 @@ const App = () => {
             <Route path='/a-propos'>
                 <Apropos />
             </Route>
-        <Route>
-            <NotFound />
-        </Route>
+            <Route>
+                <NotFound />
+            </Route>
         </Switch>
     </BrowserRouter>
     )

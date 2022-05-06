@@ -9,17 +9,11 @@
 .lmj-plant-list {
 	list-style-type: none;
 	padding: 32px;
+}
+.lmj-layout-inner{
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
 	row-gap: 45px;
 	column-gap: 45px;
 }
-@media screen and (max-width:800px){
-	.lmj-plant-list {
-	  width: 100%;
-	  justify-content: space-around;
-	  row-gap: 10px;
-	  column-gap: 10px;
-	}  
-  }
