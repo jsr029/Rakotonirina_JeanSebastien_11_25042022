@@ -1,19 +1,13 @@
 .lmj-shopping-list {
 	max-width: 1240px;
-	margin: auto;
 	font-family: 'Montserrat';
 	background: #F7F7F7;
 	border-radius: 25px;
-}
-
-.lmj-plant-list {
-	list-style-type: none;
-	padding: 32px;
-}
-.lmj-layout-inner{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	row-gap: 45px;
 	column-gap: 45px;
+	padding: 32px;
 }
+
