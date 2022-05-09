@@ -1,0 +1,11 @@
+.lgt-fiche{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    &-underImg-bloc{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}

@@ -1,4 +1,5 @@
 @import './global/index';
+@import './root/root';
 @import './banner/Banner';
 @import './header/header';
 @import './cart/Cart';
@@ -7,4 +8,6 @@
 @import './layout/Layout';
 @import './planitem/PlantItem';
 @import './shoppingList/ShoppingList';
-@import './notFound/notFound'
+@import './notFound/notFound';
+@import './ficheLgt/ficheLgt';
+@import './slideshow/slideShow';
