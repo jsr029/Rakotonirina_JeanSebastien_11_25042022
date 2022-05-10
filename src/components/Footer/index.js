@@ -1,3 +1,4 @@
+import React from 'react'
 import K from '../../assets/k-footer.png'
 import A from '../../assets/a-footer.png'
 import s from '../../assets/s-footer.png'

@@ -1,3 +1,4 @@
+import React from 'react'
 import Background from '../../assets/Background.png'
 import Img from '../../assets/IMG.png'
 

@@ -1,6 +1,6 @@
 import React from 'react';
-//import { logements } from '../../datas/logements'
 import { useFetch } from '../../components/Utils/Hooks/index'
+import SliderLgt from '../../components/SliderLgt'
 
 function FicheLogement() {
 	const urlW = window.location.href
@@ -18,28 +18,11 @@ function FicheLogement() {
 	return isLoading ?  (<div className='loader'>Chargement...</div>) : 
 	(
 		<>
-			<div className="wrapper">
-				<div className="slideshows">
-					<div className="slideshow slideshow--hero">
-				{
-					data && data.length>0 && data.map((item, i) => 
-					(urlId === item.id)  ?  (
-							item.pictures.map((p, n)=>(
-								<div className={'slides slides'+ (n+1)} key={p+1}>
-									<img src={p} alt={'image '+ item.title} key={p}/>
-								</div>
-							))
-						) 
-						: ''
-						)
-				}
-					</div>
-				</div>
-			</div>
+		<SliderLgt />
+			<div className='lgt-fiche'>						
 					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
-						<div className='lgt-fiche' key={a+4}>
-							<div className='lgt-fiche-underImg-bloc'>
+							<div className='lgt-fiche-underImg-bloc' key={a+4}>
 								<div className='lgt-fiche-title'>
 									{d.title}
 								</div>
@@ -47,11 +30,12 @@ function FicheLogement() {
 									<span>Rating : {d.rating}</span>
 								</div>
 							</div>
-						</div>
 						) : ''
 					)}
+				</div>
 		</>
 	)
+
 }
   
 export default FicheLogement;
