@@ -260,6 +260,9 @@ code {
 .lgt-fiche {
   width: 100%;
   display: flex;
+  padding: 30px 0;
+  font-family: "Monserrat";
+  color: #FF6060;
   flex-direction: column;
 }
 .lgt-fiche-underImg-bloc {
@@ -267,6 +270,50 @@ code {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.lgt-fiche-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+.lgt-fiche-location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.lgt-host-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.lgt-host-pict img {
+  border-radius: 50%;
+}
+
+.lgt-fiche-host {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lgt-fiche-tagsRatingBloc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lgt-fiche-tags span {
+  width: 115px;
+  margin-right: 10px;
+  background: #FF6060;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .carousel-root {
