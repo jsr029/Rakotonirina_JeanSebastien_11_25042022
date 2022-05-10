@@ -35,7 +35,8 @@ function FicheLogement() {
 								<div className='lgt-fiche-host-bloc'>
 									<div className='lgt-fiche-host' key={(a+6)}>
 										<div className='lgt-host-name'>
-											{d.host.name}
+											{d.host.name.split(' ')[0]} <br />
+											{d.host.name.split(' ')[1]} 
 										</div>
 										<div className='lgt-host-pict'>
 											<img src={d.host.picture} alt={'Photo de profil de : '+d.host.name} />
@@ -49,6 +50,16 @@ function FicheLogement() {
 								</div>
 								<div className='lgt-fiche-rating'>
 									{d.rating}
+								</div>
+							</div>
+							<div className='lgt-fiche-togglesBloc'>
+								<div className='lgt-fiche-description'>
+									<h2>Description</h2>
+									<p>{d.description}</p>
+								</div>
+								<div className='lgt-fiche-equipment'>
+									<h2>Equipements</h2>
+									<ul key={a+23}>{d.equipments.map((e) => <li>{e}</li>)}</ul>
 								</div>
 							</div>
 						</>
