@@ -23,7 +23,7 @@ function FicheLogement() {
 					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
 						<>
-							<div className='lgt-fiche-underImg-bloc' key={a+4}>
+							<div className='lgt-fiche-underImg-bloc' key={(a+4)}>
 								<div className='lgt-fiche-title-bloc'>
 									<div className='lgt-fiche-title'>
 										{d.title}
@@ -33,7 +33,7 @@ function FicheLogement() {
 									</div>
 								</div>
 								<div className='lgt-fiche-host-bloc'>
-									<div className='lgt-fiche-host'>
+									<div className='lgt-fiche-host' key={(a+6)}>
 										<div className='lgt-host-name'>
 											{d.host.name}
 										</div>
@@ -43,9 +43,9 @@ function FicheLogement() {
 									</div>
 								</div>									
 							</div>
-							<div className='lgt-fiche-tagsRatingBloc' key={a+5}>
+							<div className='lgt-fiche-tagsRatingBloc'>
 								<div className='lgt-fiche-tags'>
-									{d.tags.map(t => <span>{t}</span> )}
+									{d.tags.map((t, ta) => <span key={(ta+1)}>{t}</span> )}
 								</div>
 								<div className='lgt-fiche-rating'>
 									{d.rating}
