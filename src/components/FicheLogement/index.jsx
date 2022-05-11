@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import ReactStars from 'react-stars'
 import { useFetch } from '../../components/Utils/Hooks/index'
 import SliderLgt from '../../components/SliderLgt'
-import SlideToggle from "react-slide-toggle";
+import SlideToggle from 'react-slide-toggle';
 
 
 function FicheLogement() {
@@ -23,7 +24,9 @@ function FicheLogement() {
 	if (error) {
 		return <span>Il y a un problème</span>
 	}
-	
+	function ratingChanged(newRating) {
+	console.log(newRating)
+	}
 
 	return isLoading ?  (<div className='loader'>Chargement...</div>) : 
 	(
@@ -59,7 +62,12 @@ function FicheLogement() {
 									{d.tags.map((t, ta) => <span key={(ta+1)}>{t}</span> )}
 								</div>
 								<div className='lgt-fiche-rating'>
-									{d.rating}
+									<ReactStars
+										count={5}
+										onChange={ratingChanged}
+										value={`${d.rating}`}
+										size={24}
+										color2={'#ffd700'} />
 								</div>
 							</div>
 							<div className='lgt-fiche-togglesBloc'>
