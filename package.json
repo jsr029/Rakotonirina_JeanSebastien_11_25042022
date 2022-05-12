@@ -43,6 +43,7 @@
       "react-app/jest"
     ]
   },
+  "BrowserRouter basename":"{process.env.PUBLIC_URL}",
   "browserslist": {
     "production": [
       ">0.2%",
