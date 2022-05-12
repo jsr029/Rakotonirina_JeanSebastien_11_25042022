@@ -1,0 +1,14 @@
+.carousel-root{
+    width: 1240px;
+    height: 415px;
+}
+.carousel, .slide{
+    border-radius: 25px;
+}
+.slide img{
+    height: 415px;
+    object-fit: cover;
+}
+.thumbs, .animated{
+    display: none;
+}

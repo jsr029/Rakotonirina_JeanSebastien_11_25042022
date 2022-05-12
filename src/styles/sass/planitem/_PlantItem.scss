@@ -1,0 +1,43 @@
+.lmj-plant-item-cover {
+	position: relative;
+	height: 340px;
+	width: 340px;
+	background: #FF6060;
+	border-radius: 10px;
+	object-fit: cover;
+	z-index: 100px;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+	border-radius: 10px;
+}
+.lmj-plant-item-title{
+	width: 300px;
+	height: 15px;
+	padding: 5px 0 5px 5px;
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	border-radius: 10px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+	z-index: 300;
+}
+.lmj-plant-item-background{
+	position: absolute;
+	width: 340px;
+	height: 340px;
+	background: black;
+	opacity: 0.2;
+	z-index: 200;
+	border-radius: 10px;
+}

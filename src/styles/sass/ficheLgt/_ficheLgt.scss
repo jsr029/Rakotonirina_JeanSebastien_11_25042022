@@ -1,0 +1,108 @@
+.lgt-fiche{
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    font-family: 'Monserrat';
+    color: #FF6060;
+    flex-direction: column;
+     &-underImg-bloc{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &-title{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    &-location{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &-host{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &-tagsRatingBloc{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0;
+    }
+    &-tags{
+        span{
+            width: 115px;
+            margin-right: 10px;
+            background: #FF6060;
+            color: white;
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+    &-togglesBloc{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:flex-start;
+        padding: 16px 0;
+    }
+    &-description, &-equipment{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        background: #F7F7F7;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        h2{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Monserrat';
+            font-size: 18px;
+            font-weight: 500;
+            background: #FF6060;
+            color: white;
+            padding: 13px 0 13px 20px;
+            border-radius: 10px;
+            margin: 0;
+        }
+        p{
+            font-family: 'Monserrat';
+            font-size: 18px;
+            font-weight: 400;
+            padding: 0 15px;
+        }
+    }
+    &-right{
+        display: block;
+        margin: 0 15px;
+        font-size: 28px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    &-equipment ul{
+        list-style-type: none;
+        padding: 0 15px;
+    }
+}
+.lgt-host-name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.lgt-host-pict img{
+    border-radius: 50%;
+}
+.down, .down2{
+    transform: rotate(180deg);
+}

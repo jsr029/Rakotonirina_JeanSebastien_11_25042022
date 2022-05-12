@@ -1,0 +1,26 @@
+.lmj-notFound{
+    display: flex;
+    flex-direction: column;
+    &-bloc{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat';
+        text-align: center;
+        flex-direction: column;
+        color: #FF6060;
+    }
+    &-title{
+        font-size: 288px;
+    }
+    &-errorMessage{
+            font-size: 36px;
+    }
+    &-retour{
+        a{
+            text-decoration: none;
+            color: #FF6060;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}
