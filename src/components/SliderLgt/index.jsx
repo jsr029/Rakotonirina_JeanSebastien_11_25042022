@@ -17,7 +17,7 @@ function SliderLgt() {
     
             data && data.length>0 && data.map((item, i) => 
             (urlId === item.id)  ?  (
-            <Carousel autoPlay key={(i+50)}>						
+            <Carousel autoPlay infiniteLoop key={(i+50)}>						
                 {item.pictures.map((p, n)=>(
                 <div key={'stuff '+(n+100)}>
                   <img src={p} alt="" key={(n+200)}/>
