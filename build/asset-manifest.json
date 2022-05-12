@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Rakotonirina_JeanSebastien_11_25042022/kasa/static/css/main.7b003297.css",
+    "main.js": "/Rakotonirina_JeanSebastien_11_25042022/kasa/static/js/main.6b9227f1.js",
+    "static/media/IMG.png": "/Rakotonirina_JeanSebastien_11_25042022/kasa/static/media/IMG.9e0995748880080a66d4.png",
+    "index.html": "/Rakotonirina_JeanSebastien_11_25042022/kasa/index.html",
+    "main.7b003297.css.map": "/Rakotonirina_JeanSebastien_11_25042022/kasa/static/css/main.7b003297.css.map",
+    "main.6b9227f1.js.map": "/Rakotonirina_JeanSebastien_11_25042022/kasa/static/js/main.6b9227f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b003297.css",
+    "static/js/main.6b9227f1.js"
+  ]
+}
