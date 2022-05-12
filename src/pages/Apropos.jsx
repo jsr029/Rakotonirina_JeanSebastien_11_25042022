@@ -1,9 +1,17 @@
 import React from 'react'
-import Banner from '../components/Banner';
+import Banner from '../components/Banner'
+import TopAfterBanner from '../components/TopAfterBanner'
+import Fiabilite from '../components/Fiablite';
 
-const Apropos = () => {
+function Apropos() {
 	return (
-		<Banner />
+		<>
+			<Banner />
+			<TopAfterBanner />
+			<div className='lgt-fiche-AP'>
+				<Fiabilite />
+			</div>
+		</>
 		);
 };
 
