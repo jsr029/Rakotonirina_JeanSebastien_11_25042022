@@ -24,10 +24,9 @@ function FicheLogement() {
 	if (error) {
 		return <span>Il y a un problème</span>
 	}
-	function ratingChanged(newRating) {
+	/*function ratingChanged(newRating) {
 	console.log(newRating)
-	}
-
+	}*/
 	return isLoading ?  (<div className='loader'>Chargement...</div>) : 
 	(
 		<>
@@ -35,7 +34,7 @@ function FicheLogement() {
 		<div className='lgt-fiche'>						
 					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
-						<>
+						<React.Fragment key={(3*a)}>
 							<div className='lgt-fiche-underImg-bloc'>
 								<div className='lgt-fiche-title-bloc'>
 									<div className='lgt-fiche-title'>
@@ -64,8 +63,7 @@ function FicheLogement() {
 								<div className='lgt-fiche-rating' key={'rating'+(3*a+5)}>
 									<ReactStars
 										count={5}
-										onChange={ratingChanged}
-										value={`${d.rating}`}
+										value={parseInt(d.rating)}
 										size={24}
 										color2={'#ffd700'} />
 								</div>
@@ -108,7 +106,7 @@ function FicheLogement() {
 								)}
 							</SlideToggle>
 							</div>
-						</>
+						</React.Fragment>
 						) : ''
 					)}
 			</div>
