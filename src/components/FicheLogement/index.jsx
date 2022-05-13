@@ -58,10 +58,10 @@ function FicheLogement() {
 								</div>									
 							</div>
 							<div className='lgt-fiche-tagsRatingBloc'>
-								<div className='lgt-fiche-tags'>
-									{d.tags.map((t, ta) => <span key={(ta+1)}>{t}</span> )}
+								<div className='lgt-fiche-tags' key={'tags'+(2*a+2)}>
+									{d.tags.map((t, ta) => <span key={'tag'+(ta+1)}>{t}</span> )}
 								</div>
-								<div className='lgt-fiche-rating'>
+								<div className='lgt-fiche-rating' key={'rating'+(3*a+5)}>
 									<ReactStars
 										count={5}
 										onChange={ratingChanged}
