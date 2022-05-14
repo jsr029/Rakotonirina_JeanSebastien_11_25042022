@@ -3,9 +3,9 @@ import SlideToggle from 'react-slide-toggle';
 
 function QualiteItem({ id, name, description }) {
    const [nam, setName] = useState(false)
-function clickHandler(){
-     setName((prevState) => (!prevState ));
-}
+    function clickHandler(){
+        setName((prevState) => (!prevState ));
+    }
     return (
         <>
         <SlideToggle 
