@@ -1,15 +1,16 @@
 #root{
-    max-width: 1240px;
-    margin: 15px auto;
+    max-width: rem(1240);
+    margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 .lmj-banner, .wrapper, .lmj-fiche, .lmj-footer, .carousel, .slide{
     flex:1
 }
-.carousel-item{
+/*.carousel-item{
     display: flex;
     flex-direction: row;
     
-}
+}*/

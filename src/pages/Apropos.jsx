@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import TopAfterBanner from '../components/TopAfterBanner'
-import Fiabilite from '../components/Fiablite';
+import Qualite from '../components/Qualite';
 
 function Apropos() {
 	return (
@@ -9,7 +9,7 @@ function Apropos() {
 			<Banner />
 			<TopAfterBanner />
 			<div className='lgt-fiche-AP'>
-				<Fiabilite />
+				<Qualite />
 			</div>
 		</>
 		);

@@ -1,19 +1,28 @@
 body {
+  width: calc(100% - 20px);
+  position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Montserrat" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
 #root {
-  max-width: 1240px;
-  margin: 15px auto;
+  max-width: 77.5rem;
+  margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -21,20 +30,21 @@ code {
   flex: 1;
 }
 
-.carousel-item {
-  display: flex;
-  flex-direction: row;
-}
+/*.carousel-item{
+    display: flex;
+    flex-direction: row;
 
+}*/
 .lmj-banner {
   width: 100%;
   color: #FF6060;
   text-align: right;
-  padding: 32px 0;
+  padding: 2rem 0;
   /*border-bottom: solid 3px black;*/
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 .lmj-banner-logo {
@@ -45,51 +55,54 @@ code {
   align-items: baseline;
 }
 .lmj-banner-logo-K {
-  width: 54px;
+  width: 3.375rem;
 }
 .lmj-banner-logo-A, .lmj-banner-logo-s, .lmj-banner-logo-a {
-  width: 46px;
+  width: 2.875rem;
 }
 .lmj-title {
   font-family: "Montserrat";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .lmj-title a {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   text-decoration: none;
   color: #FF6060;
 }
 
 .lmj-bg {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 25px;
+  justify-content: center;
+  border-radius: 1.5625rem;
   margin: auto;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   position: relative;
 }
 
 .lmj-bg-img {
+  width: 100%;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   z-index: 100;
 }
 
 .lmj-bg-bg {
+  width: 100%;
   background: black;
   z-index: 200;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   opacity: 0.3;
 }
 
 .lmj-header-title {
-  max-width: 700px;
+  max-width: 43.75rem;
   position: absolute;
   top: 30%;
   font-family: "Monserrat";
@@ -175,48 +188,48 @@ code {
 
 .lmj-plant-item-cover {
   position: relative;
-  height: 340px;
-  width: 340px;
+  height: 21.25rem;
+  width: 21.25rem;
   background: #FF6060;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   object-fit: cover;
-  z-index: 100px;
+  z-index: 100;
 }
 
 .lmj-plant-item {
-  margin: 10px;
+  margin: 0.625rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   text-transform: capitalize;
   position: relative;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .lmj-plant-item-title {
-  width: 300px;
-  height: 15px;
-  padding: 5px 0 5px 5px;
+  width: 18.75rem;
+  height: 1.5625rem;
+  padding: 0.3125rem 0 0.3125rem 0.3125rem;
   position: absolute;
-  bottom: 25px;
-  left: 15px;
-  border-radius: 10px;
+  bottom: 1.5625rem;
+  left: 0.9375rem;
+  border-radius: 0.625rem;
   color: white;
   font-family: "Montserrat";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   z-index: 300;
 }
 
 .lmj-plant-item-background {
   position: absolute;
-  width: 340px;
-  height: 340px;
+  width: 21.25rem;
+  height: 21.25rem;
   background: black;
   opacity: 0.2;
   z-index: 200;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .lmj-shopping-list {
