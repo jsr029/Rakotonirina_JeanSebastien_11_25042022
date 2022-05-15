@@ -1,7 +1,7 @@
 .lmj-plant-item-cover {
 	position: relative;
 	height: rem(340);
-	width: rem(340);
+	max-width: rem(340);
 	background: #FF6060;
 	border-radius: rem(10);
 	object-fit: cover;
@@ -19,7 +19,7 @@
 	border-radius: rem(10);
 }
 .lmj-plant-item-title{
-	width: rem(300);
+	max-width: rem(300);
 	height: rem(25);
 	padding: rem(5) 0 rem(5) rem(5);
 	position: absolute;
@@ -34,7 +34,7 @@
 }
 .lmj-plant-item-background{
 	position: absolute;
-	width: rem(340);
+	max-width: rem(340);
 	height: rem(340);
 	background: black;
 	opacity: 0.2;

@@ -1,4 +1,8 @@
 .lmj-layout-inner {
+	max-width: 100%;
 	display: flex;
 	flex-direction: row;
+	a{
+		width: 100%;
+	}
 }

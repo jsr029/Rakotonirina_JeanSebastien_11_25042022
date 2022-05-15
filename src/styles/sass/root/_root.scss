@@ -1,12 +1,12 @@
 #root{
     max-width: rem(1240);
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
-.lmj-banner, .wrapper, .lmj-fiche, .lmj-footer, .carousel, .slide{
+.lmj-banner, .wrapper, .lmj-fiche, .lmj-footer, 
+.kasa-carousel, .lmj-bg, .lmj-shopping-list .slide{
     flex:1
 }
 /*.carousel-item{

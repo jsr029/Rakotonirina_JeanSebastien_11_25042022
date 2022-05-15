@@ -5,18 +5,17 @@
     align-items: center;   
     justify-content: center;
     border-radius: rem(25);
-    margin: auto;
-    margin-bottom: rem(32);
+    padding: rem(32) 0;
     position: relative;
 }
 .lmj-bg-img{
-    width: 100%;
+    max-width: 100%;
     position: absolute;
     border-radius: rem(25);
     z-index: 100;
 }
 .lmj-bg-bg{
-    width: 100%;
+    max-width: 100%;
     background: black;
     z-index: 200;
     border-radius: rem(25);

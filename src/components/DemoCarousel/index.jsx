@@ -5,20 +5,24 @@ import { Carousel } from 'react-responsive-carousel';
 class DemoCarousel extends Component {
     render() {
         return (
-            <Carousel>
-                <div>
-                    <img src="assets/1.jpeg" alt='youpi'/>
-                    <p className="legend">Legend 1</p>
+            <>
+            <div className='kasa-carousel'>
+                <Carousel>
+                    <div>
+                        <img src="assets/1.jpeg" alt='youpi'/>
+                        <p className="legend">Legend 1</p>
+                    </div>
+                    <div>
+                        <img src="assets/2.jpeg" alt='hello'/>
+                        <p className="legend">Legend 2</p>
+                    </div>
+                    <div>
+                        <img src="assets/3.jpeg" alt='biloute'/>
+                        <p className="legend">Legend 3</p>
+                    </div>
+                </Carousel>
                 </div>
-                <div>
-                    <img src="assets/2.jpeg" alt='hello'/>
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src="assets/3.jpeg" alt='biloute'/>
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+            </>
         );
     }
 };

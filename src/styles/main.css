@@ -1,5 +1,5 @@
 body {
-  width: calc(100% - 20px);
+  width: 100%;
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Montserrat" sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,14 +19,14 @@ body {
 }*/
 #root {
   max-width: 77.5rem;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
 }
 
-.lmj-banner, .wrapper, .lmj-fiche, .lmj-footer, .carousel, .slide {
+.lmj-banner, .wrapper, .lmj-fiche, .lmj-footer,
+.kasa-carousel, .lmj-bg, .lmj-shopping-list .slide {
   flex: 1;
 }
 
@@ -38,14 +38,12 @@ body {
 .lmj-banner {
   width: 100%;
   color: #FF6060;
-  text-align: right;
-  padding: 2rem 0;
-  /*border-bottom: solid 3px black;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 32px;
 }
 .lmj-banner-logo {
   display: flex;
@@ -81,20 +79,19 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 1.5625rem;
-  margin: auto;
-  margin-bottom: 2rem;
+  padding: 2rem 0;
   position: relative;
 }
 
 .lmj-bg-img {
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   border-radius: 1.5625rem;
   z-index: 100;
 }
 
 .lmj-bg-bg {
-  width: 100%;
+  max-width: 100%;
   background: black;
   z-index: 200;
   border-radius: 1.5625rem;
@@ -181,15 +178,23 @@ body {
   color: white;
 }
 
+.lmj-plant-list {
+  min-width: 30%;
+}
+
 .lmj-layout-inner {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
+}
+.lmj-layout-inner a {
+  width: 100%;
 }
 
 .lmj-plant-item-cover {
   position: relative;
   height: 21.25rem;
-  width: 21.25rem;
+  max-width: 21.25rem;
   background: #FF6060;
   border-radius: 0.625rem;
   object-fit: cover;
@@ -208,7 +213,7 @@ body {
 }
 
 .lmj-plant-item-title {
-  width: 18.75rem;
+  max-width: 18.75rem;
   height: 1.5625rem;
   padding: 0.3125rem 0 0.3125rem 0.3125rem;
   position: absolute;
@@ -224,7 +229,7 @@ body {
 
 .lmj-plant-item-background {
   position: absolute;
-  width: 21.25rem;
+  max-width: 21.25rem;
   height: 21.25rem;
   background: black;
   opacity: 0.2;
@@ -233,16 +238,16 @@ body {
 }
 
 .lmj-shopping-list {
-  max-width: 1240px;
+  max-width: 77.5rem;
   font-family: "Montserrat";
   background: #F7F7F7;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 45px;
-  column-gap: 45px;
-  padding: 32px;
+  row-gap: 2.8125rem;
+  column-gap: 2.8125rem;
+  padding: 2rem;
 }
 
 .lmj-notFound {
@@ -380,9 +385,9 @@ body {
   transform: rotate(180deg);
 }
 
-.carousel-root {
-  width: 1240px;
-  height: 415px;
+.kasa-carousek {
+  max-width: 1240px;
+  max-height: 415px;
 }
 
 .carousel, .slide {
