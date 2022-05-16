@@ -7,7 +7,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
-		margin-top: 32px;
+		padding: rem(32) rem(5);
 		&-logo{
 			display: flex;
 			flex-direction: row;
@@ -47,7 +47,7 @@
 			flex-wrap: wrap;
 			justify-content: space-between;
 			align-items: center;
-			margin-top: rem(32);
+			padding: rem(32) 5px;
 			&-logo{
 				display: flex;
 				flex-direction: row;

@@ -43,7 +43,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
+  padding: 2rem 0.3125rem;
 }
 .lmj-banner-logo {
   display: flex;
@@ -81,7 +81,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    padding: 2rem 5px;
   }
   .lmj-banner-logo {
     display: flex;
@@ -117,7 +117,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 1.5625rem;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   position: relative;
 }
 .lmj-bg-img {
