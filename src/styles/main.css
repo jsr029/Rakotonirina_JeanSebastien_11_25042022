@@ -137,7 +137,7 @@ body {
 .lmj-header-title {
   max-width: 43.75rem;
   position: absolute;
-  top: 30%;
+  line-height: 50%;
   font-family: "Monserrat";
   font-size: 48px;
   z-index: 300;
@@ -174,8 +174,8 @@ body {
 
   .lmj-header-title {
     max-width: 10.625rem;
+    line-height: 50%;
     position: absolute;
-    top: 34%;
     left: 2.25rem;
     font-family: "Monserrat";
     font-size: 1.5rem;

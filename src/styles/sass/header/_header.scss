@@ -24,7 +24,7 @@
 .lmj-header-title{
     max-width: rem(700);
     position: absolute;
-    top: 30%;
+    line-height: 50%;
     font-family: 'Monserrat';
     font-size: 48px;
     z-index: 300;
@@ -59,8 +59,8 @@
     }
     .lmj-header-title{
         max-width: rem(170);
+        line-height: 50%;
         position: absolute;
-        top: 34%;
         left: rem(36);
         font-family: 'Monserrat';
         font-size: rem(24px);
