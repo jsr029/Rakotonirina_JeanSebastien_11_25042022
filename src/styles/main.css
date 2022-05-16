@@ -72,6 +72,44 @@ body {
   color: #FF6060;
 }
 
+@media screen and (max-width: 475px) {
+  .lmj-banner {
+    width: 100%;
+    color: #FF6060;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .lmj-banner-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .lmj-banner-logo-K {
+    width: 2.3125rem;
+  }
+  .lmj-banner-logo-A, .lmj-banner-logo-s, .lmj-banner-logo-a {
+    width: 1.9375rem;
+  }
+  .lmj-title {
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .lmj-title a {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: #FF6060;
+  }
+}
 .lmj-bg {
   width: 100%;
   display: flex;
@@ -82,14 +120,12 @@ body {
   padding: 2rem 0;
   position: relative;
 }
-
 .lmj-bg-img {
   max-width: 100%;
   position: absolute;
   border-radius: 1.5625rem;
   z-index: 100;
 }
-
 .lmj-bg-bg {
   max-width: 100%;
   background: black;
@@ -109,6 +145,46 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 475px) {
+  .lmj-bg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5625rem;
+    padding: 2rem 0;
+    position: relative;
+  }
+  .lmj-bg-img {
+    max-width: 100%;
+    min-height: 6.9375rem;
+    position: absolute;
+    border-radius: 1.5625rem;
+    z-index: 100;
+  }
+  .lmj-bg-bg {
+    max-width: 100%;
+    min-height: 6.9375rem;
+    background: black;
+    z-index: 200;
+    border-radius: 1.5625rem;
+    opacity: 0.3;
+  }
+
+  .lmj-header-title {
+    max-width: 10.625rem;
+    position: absolute;
+    top: 34%;
+    left: 2.25rem;
+    font-family: "Monserrat";
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    z-index: 300;
+    font-weight: 500;
+    color: white;
+  }
+}
 .lmj-cart {
   color: white;
   background-color: #31b572;
@@ -191,16 +267,6 @@ body {
   width: 100%;
 }
 
-.lmj-plant-item-cover {
-  position: relative;
-  height: 21.25rem;
-  max-width: 21.25rem;
-  background: #FF6060;
-  border-radius: 0.625rem;
-  object-fit: cover;
-  z-index: 100;
-}
-
 .lmj-plant-item {
   margin: 0.625rem;
   display: flex;
@@ -211,7 +277,15 @@ body {
   position: relative;
   border-radius: 0.625rem;
 }
-
+.lmj-plant-item-cover {
+  position: relative;
+  height: 21.25rem;
+  max-width: 21.25rem;
+  background: #FF6060;
+  border-radius: 0.625rem;
+  object-fit: cover;
+  z-index: 100;
+}
 .lmj-plant-item-title {
   max-width: 18.75rem;
   height: 1.5625rem;
@@ -226,7 +300,6 @@ body {
   font-weight: 700;
   z-index: 300;
 }
-
 .lmj-plant-item-background {
   position: absolute;
   max-width: 21.25rem;
@@ -250,6 +323,22 @@ body {
   padding: 2rem;
 }
 
+@media screen and (max-width: 475px) {
+  .lmj-shopping-list {
+    max-width: 29.6875rem;
+    font-family: "Montserrat";
+    background: #F7F7F7;
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.3125rem;
+    column-gap: 0;
+    margin: 0.9375rem;
+    padding: 0;
+  }
+}
 .lmj-notFound {
   display: flex;
   flex-direction: column;

@@ -1,13 +1,3 @@
-.lmj-plant-item-cover {
-	position: relative;
-	height: rem(340);
-	max-width: rem(340);
-	background: #FF6060;
-	border-radius: rem(10);
-	object-fit: cover;
-	z-index: 100;
-}
-
 .lmj-plant-item {
 	margin: rem(10);
 	display: flex;
@@ -17,27 +7,36 @@
 	text-transform: capitalize;
 	position: relative;
 	border-radius: rem(10);
-}
-.lmj-plant-item-title{
-	max-width: rem(300);
-	height: rem(25);
-	padding: rem(5) 0 rem(5) rem(5);
-	position: absolute;
-	bottom: rem(25);
-	left: rem(15);
-	border-radius: rem(10);
-	color: white;
-	font-family: 'Montserrat';
-	font-size: rem(18);
-	font-weight: 700;
-	z-index: 300;
-}
-.lmj-plant-item-background{
-	position: absolute;
-	max-width: rem(340);
-	height: rem(340);
-	background: black;
-	opacity: 0.2;
-	z-index: 200;
-	border-radius: rem(10);
+	&-cover {
+		position: relative;
+		height: rem(340);
+		max-width: rem(340);
+		background: #FF6060;
+		border-radius: rem(10);
+		object-fit: cover;
+		z-index: 100;
+	}
+	&-title{
+		max-width: rem(300);
+		height: rem(25);
+		padding: rem(5) 0 rem(5) rem(5);
+		position: absolute;
+		bottom: rem(25);
+		left: rem(15);
+		border-radius: rem(10);
+		color: white;
+		font-family: 'Montserrat';
+		font-size: rem(18);
+		font-weight: 700;
+		z-index: 300;
+	}
+	&-background{
+		position: absolute;
+		max-width: rem(340);
+		height: rem(340);
+		background: black;
+		opacity: 0.2;
+		z-index: 200;
+		border-radius: rem(10);
+	}
 }
