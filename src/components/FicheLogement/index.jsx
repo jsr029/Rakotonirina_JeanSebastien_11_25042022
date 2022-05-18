@@ -32,7 +32,7 @@ function FicheLogement() {
 		<>
 		<SliderLgt />
 		<div className='lgt-fiche'>						
-					{data && data.length>0 && data.map((d,a) =>
+					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
 						<React.Fragment key={(3*a)}>
 							<div className='lgt-fiche-underImg-bloc'>
