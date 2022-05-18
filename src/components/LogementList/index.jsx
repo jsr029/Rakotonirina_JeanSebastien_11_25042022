@@ -1,15 +1,21 @@
 import React from 'react'
-import { logements } from '../../datas/logements'
+import { useFetch } from '../Utils/Hooks'
 import LogementItem from '../LogementItem'
-//import { useFetch } from '../Utils/Hooks'
+import ShowProps from '../ShowProps'
 
 function LogementList() {
+	const { data, isLoading, error } = useFetch(
+		`http://127.0.0.1:3000/json/logements.json`
+	)
+	if (error) {
+		return <span>Il y a un problème</span>
+	}	
+	return isLoading ?  (<div className='loader'>Chargement...</div>) : 
 
-	return (
+	(
 		<React.Fragment>
 			<div className='lmj-shopping-list'>
-
-		{logements.map(({ id, title, cover, pictures, description, host, rating, location, equipments, tags }) =>
+		{data && data.length>0 && data.map(({ id, title, cover, pictures, description, host, rating, location, equipments, tags }) =>
 						(
 							<div className='lmj-plant-list' key={id}>
 								<LogementItem
