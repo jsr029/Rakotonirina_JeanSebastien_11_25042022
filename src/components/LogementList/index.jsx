@@ -1,7 +1,6 @@
 import React from 'react'
 import { useFetch } from '../Utils/Hooks'
 import LogementItem from '../LogementItem'
-import ShowProps from '../ShowProps'
 
 function LogementList() {
 	const { data, isLoading, error } = useFetch(
