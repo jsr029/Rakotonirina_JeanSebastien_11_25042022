@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import ReactStars from 'react-stars'
-import { useFetch } from '../../components/Utils/Hooks/index'
 import SliderLgt from '../../components/SliderLgt'
 import SlideToggle from 'react-slide-toggle';
 
 
-function FicheLogement() {
+function FicheLogement({ data, isLoading, error }) {
 	const [rotate, setRotate] = useState(false);
 	  function handleClick(){
 		  setRotate((prevState) => (!prevState ));
@@ -18,19 +17,13 @@ function FicheLogement() {
 	const urlW = window.location.href
 	const urlId = urlW.split('/')[4]
 
-	const { data, isLoading, error } = useFetch(
-		`http://127.0.0.1:3000/json/logements.json`
-	)
 	if (error) {
 		return <span>Il y a un problème</span>
 	}
-	/*function ratingChanged(newRating) {
-	console.log(newRating)
-	}*/
 	return isLoading ?  (<div className='loader'>Chargement...</div>) : 
 	(
 		<>
-		<SliderLgt />
+		<SliderLgt data={data} isLoading={isLoading} error={error} />
 		<div className='lgt-fiche'>						
 					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
@@ -61,7 +54,7 @@ function FicheLogement() {
 									{d.tags.map((t, ta) => <span key={'tag'+(ta+1)}>{t}</span> )}
 								</div>
 								<div className='lgt-fiche-rating' key={'rating'+(3*a+5)}>
-									<ReactStars
+									<ReactStars data={data} isLoading={isLoading} error={error}
 										count={5}
 										value={parseInt(d.rating)}
 										size={24}
@@ -69,7 +62,7 @@ function FicheLogement() {
 								</div>
 							</div>
 							<div className='lgt-fiche-togglesBloc'>
-							<SlideToggle 
+							<SlideToggle data={data} isLoading={isLoading} error={error}
 							duration={800}
 							collapsed={true}
 							>
@@ -87,7 +80,7 @@ function FicheLogement() {
 									</div>
 								)}
 							</SlideToggle>
-							<SlideToggle 
+							<SlideToggle data={data} isLoading={isLoading} error={error}
 									duration={800}
 									collapsed={true}
 									>

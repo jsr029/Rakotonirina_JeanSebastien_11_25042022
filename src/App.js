@@ -4,20 +4,28 @@ import Home from './pages/Home.jsx'
 import Apropos from './pages/Apropos.jsx'
 import NotFound from "./pages/NotFound.jsx";
 import FicheLgt from "./pages/FicheLgt.jsx";
-
+import { useFetch } from './components/Utils/Hooks'
 
 function App() {
+    const DataFetch = React.createContext()
+	const { data, isLoading, error } = useFetch(
+		`http://127.0.0.1:3000/json/logements.json`
+	)
     return (
     <BrowserRouter>
         <Switch>
             <Route exact path='/'>
-                <Home />
+                <DataFetch.Provider  value={data} >
+                    <Home data={data} isLoading={isLoading} error={error} />
+                </DataFetch.Provider>
             </Route>
             <Route path='/a-propos'>
                 <Apropos />
             </Route>
             <Route path='/fiche-logement/:id/:title'>
-                <FicheLgt />
+                <DataFetch.Provider  value={data}>
+                <FicheLgt data={data} isLoading={isLoading} error={error} />
+                </DataFetch.Provider>
             </Route>
             <Route>
                 <NotFound />
@@ -26,4 +34,5 @@ function App() {
     </BrowserRouter>
     )
 }
+
 export default App

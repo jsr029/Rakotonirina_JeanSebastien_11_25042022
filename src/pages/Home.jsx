@@ -3,13 +3,12 @@ import Banner from '../components/Banner';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import LogementList from '../components/LogementList';
-
-const Home = () => {
+const Home = (props) => {
 	return (
 		<React.Fragment>
 			<Banner />
 			<Header />
-			<LogementList />
+			<LogementList data={props.data}/>
 			<Footer />
 		</React.Fragment>
 	);
