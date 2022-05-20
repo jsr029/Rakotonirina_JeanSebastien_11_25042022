@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer"
 
 const NotFound = () => {
     return (
@@ -13,6 +14,7 @@ const NotFound = () => {
                     <Link to={'/'}>Retourner sur la page d'Accueil</Link>
                 </p>
             </div>
+            <Footer />
         </div>
     );
 };

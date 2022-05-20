@@ -1,4 +1,5 @@
 .lmj-notFound{
+    width: 100%;
     display: flex;
     flex-direction: column;
     &-bloc{
@@ -14,8 +15,10 @@
     }
     &-errorMessage{
             font-size: 36px;
+            padding: rem(33) 0 0 0 ;
     }
     &-retour{
+            padding: rem(142) 0 0 0;
         a{
             text-decoration: none;
             color: #FF6060;

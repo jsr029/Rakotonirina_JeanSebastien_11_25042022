@@ -4,6 +4,7 @@
     flex-direction: column;
     font-family: 'Montserrat';
     row-gap: 22px;
+    color: #FF6060;
     .lgt-ap-blocRec{
         background: #F7F7F7;
         border-bottom-left-radius: 10px;
@@ -11,8 +12,9 @@
     }
     p{
         margin: 0;
-        padding: 8px 18px;
+        /*padding: 8px 18px;*/
         text-align: justify;
+        line-height: rem(34);
     }
     h2{
 
@@ -26,7 +28,7 @@
         font-weight: 500;
         background: #FF6060;
         color: white;
-        padding: 13px 0 13px 20px;
+        padding: 5px 0 7px 18px;
         border-radius: 10px;
         margin: 0;    }
     .lgt-ap-descBloc{

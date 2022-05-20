@@ -4,9 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .lmj-banner, .wrapper, .lmj-fiche, .lmj-footer, 
-.kasa-carousel, .lmj-bg, .lmj-shopping-list .slide{
+.kasa-carousel, .lmj-bg, .lmj-shopping-list, .slide, .lmj-notFound{
     flex:1
 }
 /*.carousel-item{

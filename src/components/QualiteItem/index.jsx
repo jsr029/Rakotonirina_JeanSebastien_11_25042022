@@ -21,7 +21,7 @@ function QualiteItem({ id, name, description }) {
                         </span>
                     </h2>
 					<div className="my-collapsible__content" ref={setCollapsibleElement}>
-						<p className="my-collapsible__content-inner">{description}</p>
+						<p className="my-collapsible__content-inner description">{description}</p>
                     </div>
                 </div>
                 )}

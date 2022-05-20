@@ -35,10 +35,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 .lmj-banner, .wrapper, .lmj-fiche, .lmj-footer,
-.kasa-carousel, .lmj-bg, .lmj-shopping-list .slide {
+.kasa-carousel, .lmj-bg, .lmj-shopping-list, .slide, .lmj-notFound {
   flex: 1;
 }
 
@@ -258,9 +259,8 @@ body {
   font-size: 24px;
   font-weight: 500;
 }
-
-.lmj-footer-elem {
-  margin-bottom: 10px;
+.lmj-footer-text {
+  padding: 20px 0 0 0;
 }
 
 .lmj-k-footer {
@@ -300,17 +300,21 @@ body {
   z-index: 100;
 }
 .lmj-plant-item-title {
-  max-width: 18.75rem;
-  height: 1.5625rem;
+  width: 18.75rem;
+  height: 2rem;
   padding: 0.3125rem 0 0.3125rem 0.3125rem;
   position: absolute;
-  bottom: 1.5625rem;
+  bottom: 1.25rem;
   left: 0.9375rem;
   border-radius: 0.625rem;
   color: white;
   font-family: "Montserrat";
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 2px 21px 3px black;
   z-index: 300;
 }
 .lmj-plant-item-background {
@@ -353,6 +357,7 @@ body {
   }
 }
 .lmj-notFound {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -369,6 +374,10 @@ body {
 }
 .lmj-notFound-errorMessage {
   font-size: 36px;
+  padding: 2.0625rem 0 0 0;
+}
+.lmj-notFound-retour {
+  padding: 8.875rem 0 0 0;
 }
 .lmj-notFound-retour a {
   text-decoration: none;
@@ -409,12 +418,16 @@ body {
   align-items: center;
 }
 .lgt-fiche-tagsRatingBloc {
+  height: 1.5625rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 32px 0;
+}
+.lgt-fiche-tags {
+  height: 1.5625rem;
 }
 .lgt-fiche-tags span {
   width: 7.1875rem;
@@ -424,6 +437,7 @@ body {
   font-size: 14px;
   padding: 0.1875rem 1.9375rem 0.125rem 1.875rem;
   border-radius: 15px;
+  line-height: 1.25rem;
 }
 .lgt-fiche-togglesBloc {
   width: 100%;
@@ -494,10 +508,6 @@ body {
   transform: rotate(180deg);
 }
 
-.description {
-  padding: 2.5rem 0.75rem 1.6875rem 1.25rem;
-}
-
 .kasa-carousek {
   max-width: 1240px;
   max-height: 415px;
@@ -522,6 +532,7 @@ body {
   flex-direction: column;
   font-family: "Montserrat";
   row-gap: 22px;
+  color: #FF6060;
 }
 .lgt-fiche-AP .lgt-ap-blocRec {
   background: #F7F7F7;
@@ -530,8 +541,9 @@ body {
 }
 .lgt-fiche-AP p {
   margin: 0;
-  padding: 8px 18px;
+  /*padding: 8px 18px;*/
   text-align: justify;
+  line-height: 2.125rem;
 }
 .lgt-fiche-AP h2 {
   display: flex;
@@ -544,7 +556,7 @@ body {
   font-weight: 500;
   background: #FF6060;
   color: white;
-  padding: 13px 0 13px 20px;
+  padding: 5px 0 7px 18px;
   border-radius: 10px;
   margin: 0;
 }
@@ -556,6 +568,10 @@ body {
 }
 .lgt-fiche-AP .lgt-ap-txt {
   width: 100%;
+}
+
+.description {
+  padding: 2.5rem 0.75rem 1.6875rem 1.25rem;
 }
 
 /*# sourceMappingURL=main.css.map */
