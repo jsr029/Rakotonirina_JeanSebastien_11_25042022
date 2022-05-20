@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import K from '../../assets/K.png'
 import logo from '../../assets/logo.png'
 import S from '../../assets/S.png'
@@ -6,6 +6,14 @@ import A from '../../assets/A.png'
 import { Link } from 'react-router-dom'
 
 function Banner() {
+	const [active, setActive] = useState([])
+	function handleClick(){
+		setActive((prevState) => (!prevState ));
+	}
+	const [active1, setActive1] = useState([])
+	function handleClick1(){
+		setActive1((prevState) => (!prevState ));
+	}
 	return (
 	<div className='lmj-banner'>			
 		<div className='lmj-banner-logo'>
@@ -15,7 +23,7 @@ function Banner() {
 			<img src={A} alt='logo-kasa-A' className='lmj-banner-logo-a' />
 		</div>
 		<div className='lmj-title'>
-			<Link to={'/'}>Accueil</Link> {" "} <Link to={'/a-propos'}>A propos de</Link>
+			<Link to={'/'} className={active ? 'active' : 'notActive'} onClick={handleClick}>Accueil</Link> {" "} <Link to={'/a-propos'} className={active1 ? 'notActive' : 'active'} onClick={handleClick1}>A propos de</Link>
 		</div>
 	</div>
 	)

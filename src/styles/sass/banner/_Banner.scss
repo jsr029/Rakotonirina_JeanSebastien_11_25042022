@@ -35,6 +35,9 @@
 			margin-left: rem(20);
 			text-decoration: none;
 			color: #FF6060;
+			&:hover{
+				border-bottom: 1px solid #FF6060;
+			}
 		}
 	}
 }
