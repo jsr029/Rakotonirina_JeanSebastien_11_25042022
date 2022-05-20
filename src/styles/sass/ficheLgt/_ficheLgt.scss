@@ -38,12 +38,12 @@
     }
     &-tags{
         span{
-            width: 115px;
+            width: rem(115px);
             margin-right: 10px;
             background: #FF6060;
             color: white;
             font-size: 14px;
-            padding: 10px;
+            padding: rem(3) rem(31) rem(2) rem(30);
             border-radius: 15px;
         }
     }
