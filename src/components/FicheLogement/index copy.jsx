@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
+import ReactStars from 'react-stars'
 import SliderLgt from '../../components/SliderLgt'
 import SlideToggle from 'react-slide-toggle';
-import StarRating from '../StarRating';
 
 
 function FicheLogement({ data, isLoading, error }) {
-	  const [rotate, setRotate] = useState(false);
+	const ratingChanged = (newRating) => {
+		console.log(newRating)
+	  }
+		  const [rotate, setRotate] = useState(false);
 	  function handleClick(){
 		  setRotate((prevState) => (!prevState ));
 	  }
@@ -54,9 +57,13 @@ function FicheLogement({ data, isLoading, error }) {
 									{d.tags.map((t, ta) => <span key={'tag'+(ta+1)}>{t}</span> )}
 								</div>
 								<div className='lgt-fiche-rating'>
-									<StarRating data={data}
-										value={parseInt(d.rating)}											
-									/>
+									<ReactStars data={data} key={'rating'+(3*a+5)}
+										count={5}
+										value={parseInt(d.rating)}
+										size={24}
+										color2={'#ffd700'} 
+										onchange={ratingChanged}
+										/>
 								</div>
 							</div>
 							<div className='lgt-fiche-togglesBloc'>
@@ -73,7 +80,7 @@ function FicheLogement({ data, isLoading, error }) {
 											</span>
 										</h2>
 										<div className="my-collapsible__content" ref={setCollapsibleElement}>
-											<p className="my-collapsible__content-inner description">{d.description}</p>
+											<p className="my-collapsible__content-inner">{d.description}</p>
 										</div>
 									</div>
 								)}
@@ -90,7 +97,7 @@ function FicheLogement({ data, isLoading, error }) {
 											<img src='http://127.0.0.1:3000/img/arrowUpDown.png' alt='Flèche toggle up down' className={'lgt-fiche-hat '+(rotate2 ? 'up2' : 'down2')} onClick={handleClick2} />
 										</span>
 									</h2>
-									<div className="my-collapsible__content description" ref={setCollapsibleElement}>
+									<div className="my-collapsible__content" ref={setCollapsibleElement}>
 										<ul>{d.equipments.map((e, z) => <li key={z+23}>{e}</li>)}</ul>
 									</div>
 								</div>
