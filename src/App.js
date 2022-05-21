@@ -11,12 +11,17 @@ function App() {
 	const { data, isLoading, error } = useFetch(
 		`http://127.0.0.1:3000/json/logements.json`
 	)
+
     return (
     <BrowserRouter>
         <Switch>
             <Route exact path='/'>
                 <DataFetch.Provider  value={data} >
-                    <Home data={data} isLoading={isLoading} error={error} />
+                    <Home 
+                    data={data} 
+                    isLoading={isLoading} 
+                    error={error} 
+                    />
                 </DataFetch.Provider>
             </Route>
             <Route path='/a-propos'>
