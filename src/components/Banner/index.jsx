@@ -16,7 +16,7 @@ function Banner() {
 		</div>
 		<div className='lmj-title'>
 			<NavLink to={'/'} className={isActive => isActive ? 'notActive' : ''}>Accueil</NavLink> {" "} 
-			<NavLink to={'/a-propos'}>A propos de</NavLink>
+			<NavLink to={'/a-propos'}>A propos</NavLink>
 		</div>
 	</div>
 	)

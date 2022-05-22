@@ -41,3 +41,14 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 475px){
+    .lgt-fiche-AP{
+        p{
+         font-size: 12px;
+        line-height: 17px;
+        }
+        h2{
+            padding: 2px 0 3px 9px;
+        }
+    } 
+}

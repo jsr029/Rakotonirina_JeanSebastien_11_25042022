@@ -1,4 +1,4 @@
-.kasa-carousek{
+.kasa-carousel{
     max-width: 1240px;
     max-height: 415px;
 }
@@ -11,4 +11,13 @@
 }
 .thumbs, .animated{
     display: none;
+}
+@media screen and (max-width:475px){
+    .carousel-root, .slide img{
+        width:rem(335px);
+        height:rem(255px);
+    }
+    .carousel, .slide{
+        border-radius: 10px;
+    }
 }

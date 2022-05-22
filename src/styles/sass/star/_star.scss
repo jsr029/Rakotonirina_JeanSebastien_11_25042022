@@ -8,3 +8,14 @@
 .star-rating{
     position: absolute;
 }
+
+@media screen and (max-width:478px){
+    .star-rating, .emptyStar{
+        padding: 15px 0 10px 0;
+        margin: 15px 0 10px 0;
+        width: rem(115);
+    }
+    .pinkStar img{
+        width: rem(15);
+    }
+}
