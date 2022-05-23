@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jsr029.github.io/kasa", 
+  "homepage": "http://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/kasa", 
   "dependencies": {
     "@coreui/coreui": "^4.1.5",
     "@coreui/react": "^4.2.0",
