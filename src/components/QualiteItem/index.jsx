@@ -17,7 +17,7 @@ function QualiteItem({ id, name, description }) {
                     <h2>
                         <span className='lgt-fiche-left' key={id}>{name}</span>
                         <span className='lgt-fiche-right' onClick={toggle}>
-                            <img src='./img/arrowUpDown.png' alt='' className={'lgt-fiche-hat ' + (nam ? 'up' : 'down')} onClick={clickHandler}/>
+                            <img src='https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/img/arrowUpDown.png' alt='' className={'lgt-fiche-hat ' + (nam ? 'up' : 'down')} onClick={clickHandler}/>
                         </span>
                     </h2>
 					<div className="my-collapsible__content" ref={setCollapsibleElement}>

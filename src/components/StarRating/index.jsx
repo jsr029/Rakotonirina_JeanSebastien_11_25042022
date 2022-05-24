@@ -14,7 +14,7 @@ const StarRating = (props) => {
               className={rating ? "on" : "off"}
               onClick={() => setRating(index)}
             >
-              <span className="pinkStar"><img src="http://127.0.0.1:3000/img/pinkStar.png" alt="Star" /></span>
+              <span className="pinkStar"><img src="https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/img/pinkStar.png" alt="Star" /></span>
             </div>
           );
         })}
@@ -29,7 +29,7 @@ const StarRating = (props) => {
               className={rating ? "on" : "off"}
               onClick={() => setRating(index)}
             >
-              <span className="pinkStar"><img src="http://127.0.0.1:3000/img/star.svg" alt="Star" /></span>
+              <span className="pinkStar"><img src="https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/img/star.svg" alt="Star" /></span>
             </div>
           );
         })}
