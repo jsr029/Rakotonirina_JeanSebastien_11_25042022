@@ -9,7 +9,7 @@ import { useFetch } from './components/Utils/Hooks'
 function App() {
     const DataFetch = React.createContext()
 	const { data, isLoading, error } = useFetch(
-		`http://127.0.0.1:3000/json/logements.json`
+		`https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/json/logements.json`
 	)
 
     return (
