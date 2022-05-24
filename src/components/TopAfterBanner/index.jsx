@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../../assets/Background.png'
+import Background from 'https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/assets/Background.png'
 
 function TopAfterBanner() {
     return (

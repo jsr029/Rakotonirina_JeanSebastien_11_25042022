@@ -69,7 +69,7 @@ function FicheLogement({ data, isLoading, error }) {
 										<h2>
 											<span className='lgt-fiche-left'>Description</span>
 											<span className='lgt-fiche-right my-collapsible__toggle'  onClick={toggle}>
-													<img src='http://127.0.0.1:3000/img/arrowUpDown.png' alt='Flèche toggle up down' className={'lgt-fiche-hat '+(rotate ? 'up' : 'down')} onClick={handleClick} />
+													<img src='https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/img/arrowUpDown.png' alt='Flèche toggle up down' className={'lgt-fiche-hat '+(rotate ? 'up' : 'down')} onClick={handleClick} />
 											</span>
 										</h2>
 										<div className="my-collapsible__content" ref={setCollapsibleElement}>
@@ -87,7 +87,7 @@ function FicheLogement({ data, isLoading, error }) {
 									<h2>
 										<span className='lgt-fiche-left'>Equipements</span>
 										<span className='lgt-fiche-right my-collapsible__toggle'  onClick={toggle}>
-											<img src='http://127.0.0.1:3000/img/arrowUpDown.png' alt='Flèche toggle up down' className={'lgt-fiche-hat '+(rotate2 ? 'up2' : 'down2')} onClick={handleClick2} />
+											<img src='https://jsr029.github.io/Rakotonirina_JeanSebastien_11_25042022/img/arrowUpDown.png' alt='Flèche toggle up down' className={'lgt-fiche-hat '+(rotate2 ? 'up2' : 'down2')} onClick={handleClick2} />
 										</span>
 									</h2>
 									<div className="my-collapsible__content description" ref={setCollapsibleElement}>
