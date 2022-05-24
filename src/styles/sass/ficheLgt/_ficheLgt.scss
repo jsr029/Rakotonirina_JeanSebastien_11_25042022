@@ -116,7 +116,7 @@
 .down, .down2{
     transform: rotate(180deg);
 }
-@media screen and (max-width: 475px){
+@media screen and (min-width:300px) and (max-width: 475px){
     .lgt-fiche{
         width:rem(335px);
         &-title{
@@ -132,7 +132,7 @@
             justify-content: end;
             position: absolute;
             right: 0;
-            top: rem(120);
+            top: rem(140);
         }
         &-togglesBloc{
             padding: rem(52) 0;

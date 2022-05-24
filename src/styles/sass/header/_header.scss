@@ -31,9 +31,9 @@
     font-weight: 500;
     color: white;
 }
-@media screen and (max-width:475px){
+@media screen and (min-width:300px) and (max-width:475px){
     .lmj-bg{
-        width: rem(355px);
+        max-width: rem(320px);
         display: flex;
         flex-direction: column;
         align-items: center;   
@@ -43,7 +43,7 @@
         padding: rem(15) rem(15);
         margin:0;
         &-img{
-            width: 100%;
+            max-width: 100%;
             min-height: rem(111);
             position: absolute;
             z-index: 100;
@@ -61,7 +61,7 @@
         }
     }
     .lmj-header-title{
-        max-width: rem(170);
+        width: rem(170);
         line-height: 50%;
         position: absolute;
         left: rem(36);

@@ -10,7 +10,7 @@
 	column-gap: rem(45);
 	padding: rem(32);
 }
-@media screen and (max-width:475px){
+@media screen and (min-width:300px) and (max-width:475px){
 	.lmj-shopping-list {
 		max-width: rem(475);
 		font-family: 'Montserrat';

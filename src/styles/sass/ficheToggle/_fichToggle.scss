@@ -1,7 +1,7 @@
 .description{
     padding: rem(40px) rem(12px) rem(27px) rem(20px);
 }
-@media screen and (max-width: 475px){
+@media screen and (min-width:300px) and (max-width: 475px){
     .description{
         padding: rem(20px) rem(6px) rem(13) rem(10);
     }

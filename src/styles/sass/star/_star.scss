@@ -9,7 +9,7 @@
     position: absolute;
 }
 
-@media screen and (max-width:478px){
+@media screen and (min-width:300px) and (max-width:475px){
     .star-rating, .emptyStar{
         padding: 15px 0 10px 0;
         margin: 15px 0 10px 0;
