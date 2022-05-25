@@ -72,7 +72,7 @@ body {
   color: #FF6060;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0.3125rem;
@@ -445,7 +445,7 @@ body {
   color: #FF6060;
 }
 .lmj-notFound-title {
-  font-size: 10rem;
+  font-size: 288px;
 }
 .lmj-notFound-errorMessage {
   font-size: 36px;
@@ -461,6 +461,17 @@ body {
   font-size: 18px;
 }
 
+@media screen and (min-width: 300px) and (min-width: 475px) {
+  .lmj-notFound-title {
+    font-size: 6rem;
+  }
+  .lmj-notFound-errorMessage {
+    font-size: 1.125rem;
+  }
+  .lmj-notFound-retour a {
+    font-size: 0.875rem;
+  }
+}
 .lgt-fiche {
   width: 100%;
   display: flex;

@@ -11,7 +11,7 @@
         color: #FF6060;
     }
     &-title{
-        font-size: 10rem;
+        font-size: 288px;
     }
     &-errorMessage{
             font-size: 36px;
@@ -26,4 +26,20 @@
             font-size: 18px;
         }
     }
+}
+@media screen and (min-width:300px) and (min-width:475px){
+    .lmj-notFound{
+        &-title{
+            font-size: rem(96);
+        }
+        &-errorMessage{
+                font-size: rem(18);
+        }
+        &-retour{
+            a{
+                font-size: rem(14);
+            }
+        }
+    }
+    
 }
