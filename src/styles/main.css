@@ -96,7 +96,6 @@ body {
   font-weight: 500;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   /*margin-top: rem(15px);*/
 }
@@ -139,6 +138,7 @@ body {
     font-weight: 500;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
   }
   .lmj-title a {
