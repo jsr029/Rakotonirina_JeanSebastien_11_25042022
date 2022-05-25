@@ -21,6 +21,7 @@ After the link was clicked, you can navigate to Accueil and you will see the web
    "homepage": "https://{username}.github.io/{yourfolderrepository}" /** Just before dependencies*/
    
    "predeploy": "npm run build", /** Insert those two lines in scripts, after "build" */
+   
    "deploy": "gh-pages -d build"
    
 4. Don't forget put https://{username}.github.io/{yourfolderrepository} inside all links of your React App, like images links
