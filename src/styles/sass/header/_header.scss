@@ -46,7 +46,7 @@
             min-height: rem(111);
             position: absolute;
             z-index: 100;
-            padding: 0 rem(15);
+            /*padding: 0 rem(15);*/
             object-fit: cover;
         }
         &-bg{
@@ -56,7 +56,7 @@
             z-index: 200;
             border-radius: rem(10);
             opacity: 0.3;
-            padding: 0 rem(15);
+            /*padding: 0 rem(15);*/
         }
     }
     .lmj-header-title{
