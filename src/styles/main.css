@@ -461,7 +461,7 @@ body {
   font-size: 18px;
 }
 
-@media screen and (min-width: 300px) and (min-width: 475px) {
+@media screen and (min-width: 300px) and (max-width: 475px) {
   .lmj-notFound-title {
     font-size: 6rem;
   }
