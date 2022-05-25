@@ -20,7 +20,7 @@ After the link was clicked, you can navigate to Accueil and you will see the web
 3. Modify your package.json by adding three lines :
    "homepage": "https://{username}.github.io/{yourfolderrepository}" /** Just before dependencies*/
    
-   "predeploy": "npm run build", /** Insert those two lines in scripts, after "build" */
+   "predeploy": "npm run build", /** Insert those two lines inside scripts section, after "build" */
    
    "deploy": "gh-pages -d build"
    
