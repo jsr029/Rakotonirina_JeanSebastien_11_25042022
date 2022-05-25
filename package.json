@@ -35,7 +35,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "copy": "copyfiles build/*.* kasa",
+    "copy": "copyfiles build kasa",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass": "sass --watch ./src/styles/sass/main.scss:./src/styles/main.css"
