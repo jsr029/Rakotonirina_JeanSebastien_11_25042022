@@ -375,7 +375,7 @@ body {
     z-index: 100;
   }
   .lmj-plant-item-title {
-    width: 18.75rem;
+    max-width: 18.75rem;
     height: 2rem;
     padding: 0.3125rem 0 0.3125rem 0.3125rem;
     position: absolute;
