@@ -368,7 +368,7 @@ body {
   .lmj-plant-item-cover {
     position: relative;
     height: 15.625rem;
-    max-width: 20.625rem;
+    max-width: 18.75rem;
     background: #FF6060;
     border-radius: 0.625rem;
     object-fit: cover;

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.03dc7ddd.css",
+    "main.js": "/Rakotonirina_JeanSebastien_11_25042022/static/js/main.d1a7ac2f.js",
+    "static/media/IMG.png": "/Rakotonirina_JeanSebastien_11_25042022/static/media/IMG.9e0995748880080a66d4.png",
+    "index.html": "/Rakotonirina_JeanSebastien_11_25042022/index.html",
+    "main.03dc7ddd.css.map": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.03dc7ddd.css.map",
+    "main.d1a7ac2f.js.map": "/Rakotonirina_JeanSebastien_11_25042022/static/js/main.d1a7ac2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03dc7ddd.css",
+    "static/js/main.d1a7ac2f.js"
+  ]
+}
