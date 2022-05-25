@@ -26,7 +26,7 @@ After the link was clicked, you can navigate to Accueil and you will see the web
    
 4. Don't forget to put https://{username}.github.io/{yourfolderrepository} inside all links of your React App, like images links
 5. Then you can type in the vscode terminal : npm run deploy
-6. It will creates Deploy and gh-pages branches on Github
+6. It will create Deploy and gh-pages branches on Github
 7. In Github Settings >> Pages, choose gh-pages branch
 8. Click on the link created to display the React App
 
