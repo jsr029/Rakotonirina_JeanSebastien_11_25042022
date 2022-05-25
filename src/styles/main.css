@@ -394,7 +394,7 @@ body {
   }
   .lmj-plant-item-background {
     position: absolute;
-    max-width: 20.625rem;
+    max-width: 18.75rem;
     height: 15.625rem;
     background: black;
     opacity: 0.2;
