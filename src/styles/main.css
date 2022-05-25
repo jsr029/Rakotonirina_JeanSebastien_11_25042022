@@ -466,6 +466,7 @@ body {
     font-size: 6rem;
   }
   .lmj-notFound-errorMessage {
+    max-width: 16.25rem;
     font-size: 1.125rem;
   }
   .lmj-notFound-retour a {

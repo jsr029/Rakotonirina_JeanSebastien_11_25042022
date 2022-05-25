@@ -33,7 +33,8 @@
             font-size: rem(96);
         }
         &-errorMessage{
-                font-size: rem(18);
+            max-width: rem(260);
+            font-size: rem(18);
         }
         &-retour{
             a{
