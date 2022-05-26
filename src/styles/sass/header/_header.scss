@@ -34,29 +34,14 @@
 @media screen and (min-width:300px) and (max-width:475px){
     .lmj-bg{
         max-width: rem(320px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-        justify-content: center;
-        border-radius: rem(10);
-        position: relative;
-        margin:0;
+        padding: 0;
         &-img{
             max-width: 100%;
             min-height: rem(111);
-            position: absolute;
-            z-index: 100;
-            /*padding: 0 rem(15);*/
-            object-fit: cover;
         }
         &-bg{
             width: 100%;
             min-height: rem(111);
-            background: black;
-            z-index: 200;
-            border-radius: rem(10);
-            opacity: 0.3;
-            /*padding: 0 rem(15);*/
         }
     }
     .lmj-header-title{
