@@ -360,6 +360,7 @@ body {
 @media screen and (min-width: 300px) and (max-width: 475px) {
   .lmj-plant-item-cover {
     max-width: 18.75rem;
+    height: 15.625rem;
   }
   .lmj-plant-item-title {
     max-width: 18.75rem;
