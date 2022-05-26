@@ -346,7 +346,7 @@ body {
   border-radius: 0.625rem;
 }
 
-@media screen and (min-width: 470px) and (max-width: 800px) {
+@media screen and (min-width: 470px) and (max-width: 1200px) {
   .lmj-plant-item-cover {
     max-width: 18rem;
   }
