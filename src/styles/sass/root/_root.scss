@@ -1,6 +1,7 @@
 #root{
-    max-width: calc(95% - 16px);
+    max-width: rem(1240);
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
