@@ -19,3 +19,11 @@
 .lmj-k-footer{
 	color: white;
 }
+@media screen and (min-width:300px) and (max-width:475px) {
+	.lmj-footer {
+		&-text {
+			padding: 20px 0 0 0;
+			font-size: rem(12);
+		}
+	}
+}

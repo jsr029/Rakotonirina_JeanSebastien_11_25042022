@@ -294,6 +294,12 @@ body {
   color: white;
 }
 
+@media screen and (min-width: 300px) and (max-width: 475px) {
+  .lmj-footer-text {
+    padding: 20px 0 0 0;
+    font-size: 0.75rem;
+  }
+}
 .lmj-plant-list {
   min-width: 30%;
 }
