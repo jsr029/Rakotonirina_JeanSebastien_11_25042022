@@ -345,6 +345,19 @@ body {
   border-radius: 0.625rem;
 }
 
+@media screen and (min-width: 470px) and (max-width: 800px) {
+  .lmj-plant-item-cover {
+    max-width: 20rem;
+  }
+  .lmj-plant-item-title {
+    max-width: 18.75rem;
+    left: 0.3125rem;
+  }
+  .lmj-plant-item-background {
+    max-width: 20rem;
+    height: 15.625rem;
+  }
+}
 @media screen and (min-width: 300px) and (max-width: 475px) {
   .lmj-plant-item-cover {
     max-width: 18.75rem;
