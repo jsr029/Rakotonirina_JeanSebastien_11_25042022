@@ -346,51 +346,16 @@ body {
 }
 
 @media screen and (min-width: 300px) and (max-width: 475px) {
-  .lmj-plant-item {
-    margin: 0.625rem;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    text-transform: capitalize;
-    position: relative;
-    border-radius: 0.625rem;
-  }
   .lmj-plant-item-cover {
-    position: relative;
-    height: 15.625rem;
     max-width: 18.75rem;
-    background: #FF6060;
-    border-radius: 0.625rem;
-    object-fit: cover;
-    z-index: 100;
   }
   .lmj-plant-item-title {
     max-width: 18.75rem;
-    height: 2rem;
-    padding: 0.3125rem 0 0.3125rem 0.3125rem;
-    position: absolute;
-    bottom: 1.25rem;
     left: 0.3125rem;
-    border-radius: 0.625rem;
-    color: white;
-    font-family: "Montserrat";
-    font-size: 1.125rem;
-    font-weight: 500;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-shadow: 2px 2px 3px black;
-    z-index: 300;
   }
   .lmj-plant-item-background {
-    position: absolute;
     max-width: 18.75rem;
     height: 15.625rem;
-    background: black;
-    opacity: 0.2;
-    z-index: 200;
-    border-radius: 0.625rem;
   }
 }
 .lmj-shopping-list {
