@@ -345,7 +345,19 @@ body {
   border-radius: 0.625rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 470px) and (max-width: 800px) {
+  .lmj-plant-item-cover {
+    max-width: 18rem;
+  }
+  .lmj-plant-item-title {
+    max-width: 18rem;
+    left: 0.3125rem;
+  }
+  .lmj-plant-item-background {
+    max-width: 18rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 475px) {
   .lmj-plant-item-cover {
     max-width: 18.75rem;
   }
@@ -371,6 +383,14 @@ body {
   padding: 2rem;
 }
 
+@media screen and (min-width: 470px) and (max-width: 800px) {
+  .lmj-shopping-list {
+    max-width: 45.3125rem;
+    row-gap: 0.3125rem;
+    column-gap: 0;
+    margin: 0.625rem;
+  }
+}
 @media screen and (min-width: 300px) and (max-width: 475px) {
   .lmj-shopping-list {
     max-width: 29.6875rem;
