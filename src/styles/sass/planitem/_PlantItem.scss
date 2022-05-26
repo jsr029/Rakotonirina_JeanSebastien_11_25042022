@@ -44,21 +44,7 @@
 		border-radius: rem(10);
 	}
 }
-@media screen and (min-width:470px) and (max-width:800px){
-	.lmj-plant-item {
-		&-cover {
-			max-width: rem(320);
-		}
-		&-title{
-			max-width: rem(300);
-			left: rem(5);
-		}
-		&-background{
-			max-width: rem(320);
-		}
-	}
-}
-@media screen and (min-width:300px) and (max-width:475px){
+@media screen and (min-width:300px) and (max-width:800px){
 	.lmj-plant-item {
 		&-cover {
 			max-width: rem(300);
