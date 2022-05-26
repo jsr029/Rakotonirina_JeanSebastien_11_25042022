@@ -355,7 +355,6 @@ body {
   }
   .lmj-plant-item-background {
     max-width: 20rem;
-    height: 15.625rem;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 475px) {
