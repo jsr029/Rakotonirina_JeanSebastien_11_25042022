@@ -526,7 +526,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 16px 0;
 }
 .lgt-fiche-description, .lgt-fiche-equipment {
