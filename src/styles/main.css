@@ -385,6 +385,15 @@ body {
   padding: 2rem;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .lmj-shopping-list {
+    max-width: 64.0625rem;
+    row-gap: 0.3125rem;
+    column-gap: 0.3125rem;
+    margin: 0.625rem;
+    padding: 1rem;
+  }
+}
 @media screen and (min-width: 470px) and (max-width: 800px) {
   .lmj-shopping-list {
     max-width: 45.3125rem;

@@ -10,6 +10,15 @@
 	column-gap: rem(29);
 	padding: rem(32);
 }
+@media screen and (min-width:768px) and (max-width:1050px){
+	.lmj-shopping-list {
+		max-width: rem(1025);
+		row-gap: rem(5);
+		column-gap:rem(5);
+		margin: rem(10);
+		padding: rem(16);
+	}
+}
 @media screen and (min-width:470px) and (max-width:800px){
 	.lmj-shopping-list {
 		max-width: rem(725);
@@ -18,6 +27,7 @@
 		margin: rem(10);
 	}
 }
+
 @media screen and (min-width:300px) and (max-width:475px){
 	.lmj-shopping-list {
 		max-width: rem(475);
