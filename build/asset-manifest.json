@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.37cba70d.css",
+    "main.css": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.c21f58ec.css",
     "main.js": "/Rakotonirina_JeanSebastien_11_25042022/static/js/main.d1a7ac2f.js",
     "static/media/IMG.png": "/Rakotonirina_JeanSebastien_11_25042022/static/media/IMG.9e0995748880080a66d4.png",
     "index.html": "/Rakotonirina_JeanSebastien_11_25042022/index.html",
-    "main.37cba70d.css.map": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.37cba70d.css.map",
+    "main.c21f58ec.css.map": "/Rakotonirina_JeanSebastien_11_25042022/static/css/main.c21f58ec.css.map",
     "main.d1a7ac2f.js.map": "/Rakotonirina_JeanSebastien_11_25042022/static/js/main.d1a7ac2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.37cba70d.css",
+    "static/css/main.c21f58ec.css",
     "static/js/main.d1a7ac2f.js"
   ]
 }
