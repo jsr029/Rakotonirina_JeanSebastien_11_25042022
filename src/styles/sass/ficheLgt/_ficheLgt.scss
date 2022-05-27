@@ -127,7 +127,7 @@
 }
 @media screen and (min-width:300px) and (max-width: 475px){
     .lgt-fiche{
-        width:rem(335px);
+        /*width:rem(335px);*/
         &-title{
             font-size: 18px;
             line-height: 16px;
@@ -149,7 +149,7 @@
             flex-direction: column;
         }
         &-description, &-equipment{
-            width: 100%;
+            max-width: rem(400);
             margin-top: rem(20);
             h2{
                 padding: 6px 0 6px 10px;

@@ -596,7 +596,7 @@ body {
 }
 @media screen and (min-width: 300px) and (max-width: 475px) {
   .lgt-fiche {
-    width: 20.9375rem;
+    /*width:rem(335px);*/
   }
   .lgt-fiche-title {
     font-size: 18px;
@@ -619,7 +619,7 @@ body {
     flex-direction: column;
   }
   .lgt-fiche-description, .lgt-fiche-equipment {
-    width: 100%;
+    max-width: 25rem;
     margin-top: 1.25rem;
   }
   .lgt-fiche-description h2, .lgt-fiche-equipment h2 {
