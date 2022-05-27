@@ -127,7 +127,7 @@
 }
 @media screen and (min-width:300px) and (max-width: 475px){
     .lgt-fiche{
-        /*width:rem(335px);*/
+        max-width:rem(400);
         &-title{
             font-size: 18px;
             line-height: 16px;

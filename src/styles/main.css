@@ -596,7 +596,7 @@ body {
 }
 @media screen and (min-width: 300px) and (max-width: 475px) {
   .lgt-fiche {
-    /*width:rem(335px);*/
+    max-width: 25rem;
   }
   .lgt-fiche-title {
     font-size: 18px;
