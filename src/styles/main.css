@@ -621,7 +621,7 @@ body {
     padding: 6px 0 6px 10px;
   }
   .lgt-fiche-tags {
-    max-width: 20.9375rem;
+    width: 20rem;
   }
   .lgt-fiche-tags span {
     padding: 8px 9px;
