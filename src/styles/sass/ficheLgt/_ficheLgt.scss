@@ -116,6 +116,15 @@
 .down, .down2{
     transform: rotate(180deg);
 }
+@media screen and (min-width:700px) and (max-width: 800px){
+    .lgt-fiche{
+         &-tags {
+            span{
+            padding: 8px 9px;
+            }
+        }
+    }
+}
 @media screen and (min-width:300px) and (max-width: 475px){
     .lgt-fiche{
         width:rem(335px);
@@ -158,4 +167,3 @@
             font-size: rem(14);
         }
     }
-}
