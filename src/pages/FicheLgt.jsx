@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import { useTitle } from '../components/Utils/useTitle'
 
 function FicheLgt(props) { 
-    const url = window.location
+    const url = window.location.href
     const titre = url.split('/')[4]
     console.log(titre)
     useTitle("Kasa | Fiche Logement ") 
