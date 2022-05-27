@@ -619,7 +619,7 @@ body {
     flex-direction: column;
   }
   .lgt-fiche-description, .lgt-fiche-equipment {
-    max-width: 25rem;
+    width: 18.75rem;
     margin-top: 1.25rem;
   }
   .lgt-fiche-description h2, .lgt-fiche-equipment h2 {

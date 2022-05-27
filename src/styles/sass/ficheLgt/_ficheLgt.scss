@@ -149,7 +149,7 @@
             flex-direction: column;
         }
         &-description, &-equipment{
-            max-width: rem(400);
+            width: rem(300);
             margin-top: rem(20);
             h2{
                 padding: 6px 0 6px 10px;
