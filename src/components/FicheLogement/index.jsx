@@ -28,6 +28,7 @@ function FicheLogement({ data, isLoading, error }) {
 					{data && data.length && data.map((d,a) =>
 					(urlId === d.id) ? (
 						<React.Fragment key={(3*a)}>
+						<title>Kasa | {d.tilte}</title>
 							<div className='lgt-fiche-underImg-bloc'>
 								<div className='lgt-fiche-title-bloc'>
 									<div className='lgt-fiche-title'>
