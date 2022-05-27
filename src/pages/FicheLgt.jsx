@@ -6,8 +6,9 @@ import { useTitle } from '../components/Utils/useTitle'
 
 function FicheLgt(props) { 
     const url = window.location
-    const titre = url.split('/')[5]
-    useTitle("Kasa | Fiche Logement "+ titre) 
+    const titre = url.split('/')[4]
+    console.log(titre)
+    useTitle("Kasa | Fiche Logement ") 
     return(
         <React.Fragment>
             <Banner />
