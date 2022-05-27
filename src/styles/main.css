@@ -621,11 +621,12 @@ body {
     padding: 6px 0 6px 10px;
   }
   .lgt-fiche-tags {
-    width: 335px;
+    max-width: 20.9375rem;
   }
   .lgt-fiche-tags span {
     padding: 8px 9px;
     border-radius: 10px;
+    font-size: 0.5625rem;
   }
   .lgt-fiche-location {
     font-size: 0.875rem;

@@ -147,10 +147,11 @@
             }
         }
         &-tags {
-            width: 335px;
+            max-width: rem(335);
             span{
             padding: 8px 9px;
             border-radius: 10px;
+            font-size: rem(9);
             }
         }
         &-location{
