@@ -14,6 +14,10 @@ After the link was clicked, you can navigate to Accueil and you will see the web
 # How to Deploy React App to Github
 - just follow intructions [Here](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
 
+# P11 pseudo Algorigram
+
+<div style="text-align:center"><img src="P11BrainConcept.jpg" alt="P11 pseudo Algorigram" /></div>
+
 # Sum up
 1. You need to have a repository on Github
 2. Install your react app in your local network
