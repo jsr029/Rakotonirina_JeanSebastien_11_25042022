@@ -16,7 +16,7 @@ After the link was clicked, you can navigate to Accueil and you will see the web
 
 # P11 pseudo Algorigram
 
-<div style="text-align:center"><img src="./P11BrainConcept.jpg" alt="P11 pseudo Algorigram" /></div>
+<div style="text-align:center; width:800px"><img src="https://github.com/jsr029/Rakotonirina_JeanSebastien_11_25042022/blob/Fetch-one-time-in-app-and-useContext-plus-props/P11BrainConcept.jpeg" alt="P11 pseudo Algorigram" /></div>
 
 # Sum up
 1. You need to have a repository on Github
